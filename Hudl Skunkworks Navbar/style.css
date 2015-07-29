@@ -1,0 +1,101 @@
+.challenge-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	z-index: 800;
+	font-size: 14px;
+	background-color: #4C5C66;
+	border-bottom: 1px solid #ddd;
+}
+
+.header-inner{
+	box-sizing: border-box;
+	position: relative;
+	height: 60px;
+	width: 100%;
+	min-width: 400px;
+}
+
+.logo{
+	width: 100px;
+	height: 36px;
+	padding-left: 20px;
+	padding-top: 16px;
+	display: inline-block;
+}
+
+.header-nav{
+	position: relative;
+	height: 60px;
+	width: 240px;
+	z-index: 1;
+	float: right;
+	display: table;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	bottom: 45px;
+}
+
+a{
+	text-decoration: none; 
+}
+
+.text-nav{
+	position: fixed;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	top: 25px;
+	padding-left: 4px;
+	color: #fff;
+}
+
+.text-nav-careers{
+	position: fixed;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	top: 25px;
+	color: #fff;
+}
+
+.navbar-item-careers{
+	height: 67px;
+	width: 90px;
+	padding-left: 18px;
+	max-height: 70px;
+	padding-top: 46px;
+	max-width: 90px;
+	-webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+
+#link{
+	display: inline-block;
+}
+
+.navbar-item{
+	height: 67px;
+	width: 80px;
+	padding-left: 15px;
+	padding-top: 47px;
+	max-height: 70px;
+	max-width: 80px;
+	-webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+
+.navbar-item-careers:hover{
+	background-color: #5C6D79;
+}
+
+.navbar-item:hover{
+	background-color: #5C6D79;
+}
