@@ -1,6 +1,7 @@
 <DOCTYPE! html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
 <body>
 <div class="challenge-header">
@@ -70,8 +71,9 @@
                             Output one line, the string S after applying the queries.
                         </div>
                    
-                    <div class="submit-file"></div>
-                     <div class="upload-file"></div>
+                    <a href="#"><div class="submit-file" onclick="submitQOne()"><h6>Submit</h6></div></a>
+                    <input type="file" id="inp"/>
+                     <a href="#"><div class="upload-file" onclick="uploadQOne()"><h6>Attach</h6></div></a>
                         <div class="example-tests">
 
                         </div>
@@ -115,5 +117,20 @@
         </ul>
     </div>
 </div>
+<script>
+var currentFileOne = $("#inp")[0].files; 
+console.log(currentFileOne);
+if(currentFileOne.length > 0){
+    var fileName = currentFileOne[0].name; 
+console.log(fileName);
+}
+
+function submitQOne(){
+}
+
+function uploadQOne(){
+    $('#inp').click();
+}
+ </script>
 </body>
     </html>
