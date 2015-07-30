@@ -183,6 +183,7 @@ a{
     border-color: lightgray;
     margin-bottom: 10px;
     background-color: white;
+    overflow: auto;
 }
 
 
@@ -194,17 +195,49 @@ h3{
 	border-bottom: 2px solid lightgray;
 }
 
-
-.upload-file{
+.submit-file{
 	position: relative;
-	width: 100px;
+	width: 70px;
+	margin-left: 5px;
+	margin-top: 10px;
 	height: 30px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: lightgray; 
 	border-radius: 10px;
-	margin-left: 75%;
-	margin-top: 2px;
+	float: right;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.submit-file:hover{
+	background-color: lightgray;
+	-webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+
+
+.upload-file{
+	position: relative;
+	margin-top: 10px;
+	width: 70px;
+	height: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray; 
+	border-radius: 10px;
+	float: right;
+	box-sizing: border-box;
+	overflow: auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .upload-file:hover{
