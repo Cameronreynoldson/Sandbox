@@ -44,8 +44,9 @@ a{
 }
 
 .text-nav{
+    font-weight: bold;
 	position: fixed;
-	font-family: Proxima Nova;
+	font-family: sans-serif;
 	font-size: 20px;
 	top: 25px;
 	padding-left: 4px;
@@ -53,14 +54,17 @@ a{
 }
 
 .text-nav-careers{
+    font-weight: bold;
 	position: fixed;
-	font-family: Proxima Nova;
+	font-family: sans-serif;
 	font-size: 20px;
 	top: 25px;
 	color: #fff;
 }
 
 .navbar-item-careers{
+    font-family: sans-serif;
+    font-weight: bold;
 	height: 67px;
 	width: 90px;
 	padding-left: 18px;
@@ -79,6 +83,8 @@ transition: all 200ms ease-in-out;
 }
 
 .navbar-item{
+    font-family: sans-serif;
+    font-weight: bold;
 	height: 67px;
 	width: 80px;
 	padding-left: 15px;
@@ -98,4 +104,133 @@ transition: all 200ms ease-in-out;
 
 .navbar-item:hover{
 	background-color: #5C6D79;
+}
+
+.introduction {
+    
+}
+
+.maincontent {
+	position: relative;
+    font-family: sans-serif;
+    min-width: 600px;
+    bottom: 110px;
+}
+
+.mainproblemcontainer {
+	margin: 0 auto;
+	width: 50%;
+    min-width: 300px;
+	padding: 10px;
+	padding-left: 6%;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.listtitle {
+	font-family: sans-serif;
+	color: #F58B52;
+	font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    margin-top: -10;
+    text-align: center;
+    padding-bottom: 17px;
+    border-bottom: 2px solid lightgray;
+}
+
+.listcontainer {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.listitem {
+
+	padding-bottom: 10px;
+}
+
+.problemnumber {
+    padding: 5px;
+}
+
+a:hover {
+    color: #F58B52;
+}
+
+a{
+	color: #8D9597;
+	font-weight: bold;
+}
+
+.problemstable{
+	margin-top: 28;
+}
+
+.problemitem {
+	color: #8D9597;
+	border-radius: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+h3{
+	color: #F58B52;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-bottom: 8px;
+	border-bottom: 2px solid lightgray;
+}
+
+
+.upload-file{
+	position: relative;
+	width: 100px;
+	height: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray; 
+	border-radius: 10px;
+	margin-left: 75%;
+	margin-top: 2px;
+}
+
+.upload-file:hover{
+	background-color: lightgray;
+	-webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+
+.problemlist {
+	height: 146;
+	border-radius: 18px;
+	display: block;
+	left: -30%;
+	top: 211px;
+	width: 150px;
+	max-width: 150px;
+	position: relative;
+	padding-top: 23px;
+	border-width: 2px;
+	border-color: lightgray;
+	border-style: solid;
+	margin: 0 auto;
+}
+html{
+    background-color: white;
 }
