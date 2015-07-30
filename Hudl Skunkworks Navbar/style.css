@@ -9,6 +9,7 @@
 	font-size: 14px;
 	background-color: #4C5C66;
 	border-bottom: 1px solid #ddd;
+	min-width: 921;
 }
 
 .header-inner{
@@ -113,7 +114,7 @@ transition: all 200ms ease-in-out;
 .maincontent {
 	position: relative;
     font-family: sans-serif;
-    min-width: 600px;
+    min-width: 921px;
     bottom: 110px;
 }
 
@@ -122,6 +123,7 @@ transition: all 200ms ease-in-out;
 	width: 50%;
     min-width: 300px;
 	padding: 10px;
+	overflow: auto;
 	padding-left: 6%;
 }
 
@@ -290,6 +292,28 @@ h6{
 	border-color: lightgray;
 	border-style: solid;
 	margin: 0 auto;
+}
+
+input:focus{
+	outline: none;
+}
+
+#input-email{
+	padding-left: 2%;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-style: solid;
+	border-color: lightgray;
+	color: #8D9597;;
+	border-radius: 11px;
+	width: 60%;
+	height: 29;
+	position: relative;
+	margin-top: -7;
+}
+
+#input-email:hover{
+	border-color: #F58B52;
 }
 html{
     background-color: white;
