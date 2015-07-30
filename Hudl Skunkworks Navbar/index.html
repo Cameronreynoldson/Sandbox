@@ -72,11 +72,17 @@
                         </div>
                    
                     <a href="#"><div class="submit-file" onclick="submitQOne()"><h6>Submit</h6></div></a>
-                    <input type="file" id="inp"/>
-                     <a href="#"><div class="upload-file" onclick="uploadQOne()"><h6>Attach</h6></div></a>
-                        <div class="example-tests">
 
-                        </div>
+                    <input type="file" id="inp"/>
+
+                     <a href="#"><div class="upload-file" onclick="uploadQOne()"><h6>Attach</h6></div></a>
+
+                     <div id="email-container">
+                        <form id="email-form" method="post">
+                            <div id="email-container-box">
+                                <input type="text" id="input-email" name="query" onfocus="emailContainerField('focus')" onblur="emailContainerField('blur')">
+                             </div>
+                     </div>
 
                     </div>
 
@@ -118,11 +124,26 @@
     </div>
 </div>
 <script>
+
 var currentFileOne = $("#inp")[0].files; 
+
 console.log(currentFileOne);
+
 if(currentFileOne.length > 0){
     var fileName = currentFileOne[0].name; 
-console.log(fileName);
+    console.log(fileName);
+}
+
+function emailContainerField(focus)
+{
+    if(focus == 'focus')
+    {
+        $('#input-email').css('border-color','#F58B52');
+    }
+    else
+    {
+        $('#input-email').css('border-color','lightgray');
+    }
 }
 
 function submitQOne(){
