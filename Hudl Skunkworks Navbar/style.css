@@ -196,6 +196,7 @@ h3{
 }
 
 .submit-file{
+	text-align: center; 
 	position: relative;
 	width: 70px;
 	margin-left: 5px;
@@ -214,7 +215,9 @@ box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .submit-file:hover{
-	background-color: lightgray;
+	background-color: #F58B52;
+	border-color: #F58B52;
+	color: white;
 	-webkit-transition: all 200ms ease-in-out;
 -moz-transition: all 200ms ease-in-out;
 -ms-transition: all 200ms ease-in-out;
@@ -222,8 +225,17 @@ box-sizing: border-box;         /* Opera/IE 8+ */
 transition: all 200ms ease-in-out;
 }
 
+.upload-file:hover h6{
+	color: white;
+}
+
+.submit-file:hover h6{
+	color: white;
+}
+
 
 .upload-file{
+	text-align: center; 
 	position: relative;
 	margin-top: 10px;
 	width: 70px;
@@ -240,13 +252,28 @@ transition: all 200ms ease-in-out;
 box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+#inp{
+	left: 50px;
+	opacity: 0;
+}
+
 .upload-file:hover{
-	background-color: lightgray;
+	background-color: #F58B52;
+	border-color: #F58B52;
+	color: white;
 	-webkit-transition: all 200ms ease-in-out;
 -moz-transition: all 200ms ease-in-out;
 -ms-transition: all 200ms ease-in-out;
 -o-transition: all 200ms ease-in-out;
 transition: all 200ms ease-in-out;
+}
+
+h6{
+	margin-top: 5;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: 900;
+	color: #C3C3C3;
 }
 
 .problemlist {
