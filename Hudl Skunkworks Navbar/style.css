@@ -299,6 +299,7 @@ input:focus{
 }
 
 #input-email{
+	text-align: center;
 	padding-left: 2%;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -310,6 +311,17 @@ input:focus{
 	height: 29;
 	position: relative;
 	margin-top: -7;
+}
+
+#checkmark{
+	float: right;
+	padding-top: 10;
+	display: none;
+}
+
+#x{
+	float: right;
+	padding-top: 10;
 }
 
 #input-email:hover{
